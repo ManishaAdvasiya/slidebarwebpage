@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    background-color: rgb(236, 230, 230);
+    width: 15vw;
+    height: 100vh;
+    font-family: sans-serif;
+    color: blanchedalmond;
+}
+.main{
+    background-color: black;
+    width: 85vw;
+}
+#container{
+    display: flex;
+}
+.sidebar nav{
+    padding:  45px;
+
+
+}
+.sidebar nav li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav li a:hover{
+    color: rgb(64, 6, 187);
+}
+.infocontainer{
+    background-color: #e6c2b9 ;
+    height: 55vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devinfo{
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.img img{
+    height: 55vh;
+    width: 390px;
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 45px;
+    font-weight: 400px;
+    font-family: sans-serif;
+}
+.about{
+    font-size: 35px;
+}
+.moreabout{
+    font-size: 22px;
+    font-weight: 600px;
+    font-family: sans-serif;
+}
+button{
+    margin-top: 20px;
+}
+
+.button button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #298EF2;
+    color: white;
+    border: 1px solid #298EF2;
+    font-size: 18px;
+    margin:0 3px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+.button button:hover{
+ 
+    background-color: white;
+    color: black;
+}
